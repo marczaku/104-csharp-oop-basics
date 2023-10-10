@@ -44,5 +44,5 @@ Output:300
 - Create a class named `Item`
   - Add a field of type `int` named `goldValue`
 - Create an Array containing three `Items`
-- Assign the value `100` to the first `Item`, `200` to the second and `300` to the third `Item`.
-- Print the value of each `Item` to the Console.
+- Assign the value `100` to the first `Item`'s `goldValue`, `200` to the second's `goldValue` and `300` to the third's.
+- Print the value of each `Item`'s `goldValue` to the Console.
