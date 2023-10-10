@@ -26,3 +26,18 @@ Output: 5 level and 1 Experience.
   - He can theoretically level up multiple Levels at once.
 - Create an instance of class `Player`
 - Allow the user repeatedly to define, how much Experience he wants to grant the `Player` and use the `GrantExperience` Method to grant it.
+
+## P3_2OpenDoor
+
+### Instructions
+- Create a House Class
+- It has a door that can be open or closed (`bool`)
+- It has a method `OpenDoor` that opens the door
+- It has a method `CloseDoor` that closes the door
+
+- Create two houses `blueHouse` and `redHouse`
+- Print for both houses whether the door is open (should be `false` and `false`)
+- Open the Door at `blueHouse`
+- Print for both houses whether the door is open (should be `true` and `false`)
+- Open the Door at `redHouse`
+- Print for both houses whether the door is open (should be `true` and `true`)
