@@ -80,6 +80,7 @@ Output:4
   - It has a Method named `IncreaseScore` for increasing the Score
 - Instantiate the class and assign it to Variable `one`
 - Assign Variable `one` to Variable `two`
+- Assign Variable `two` to Variable `three`
 - Assign Variable `three` to Variable `four`
 - Invoke `IncreaseScore` once on each Variable
 - Print each Variable's `Score` to the Console
