@@ -17,6 +17,10 @@ Design the classes by thinking about:
 - Do they have Vitamins?
 - Can they be eaten?
 
+Hint: You need to add some additional classes. e.g.:
+- If the given classes were `Red`, `Blue`, `Green`
+- You might wanna add an additional class named `Color`
+
 ## P5_1Father
 - Create a class named `DarthVader`
 - Create a class named `Luke`
