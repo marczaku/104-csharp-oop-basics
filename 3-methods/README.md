@@ -27,7 +27,30 @@ Output: 5 level and 1 Experience.
 - Create an instance of class `Player`
 - Allow the user repeatedly to define, how much Experience he wants to grant the `Player` and use the `GrantExperience` Method to grant it.
 
-## P3_2OpenDoor
+## P3_1HelloWorld
+
+This exercise lets you define your first Class Method.
+
+- Create a `World` Class (in its own File `World.cs`)
+- Give it a Method named `Hello`
+  - It should print `"Hello, World!"` to the Console
+- Invoke the Method from your `Program.cs`
+
+## P3_2People
+
+This exercise asks you to define a Method that reads a Value from its Field.
+
+- Create a `Person` Class
+- Give it a Field for their `Name`
+- Give it a Method named `Greeting`
+  - It should print `"Hello, I'm Marc!"` (or whatever their name is) to the Console
+- Create an Array with 3 People
+- Let the Console User decide their names
+- Afterwards invoke `Greeting` on all People
+
+## P3_3OpenDoor
+
+This exercise asks you to define a Method that changes a class Field.
 
 ### Instructions
 - Create a House Class
