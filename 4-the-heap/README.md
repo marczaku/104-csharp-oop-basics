@@ -40,6 +40,8 @@ Output:Player 3 Damage: 3
 
 ## P4_1Replacing
 
+This object teaches you that you can easily replace an object (class instance) with a new one. This will then be a completely new and fresh instance.
+
 ### Goal
 ```
 Output:Plant is a seed.
@@ -61,3 +63,46 @@ Output:Plant is a seed.
 - Make it Grow.
 - Assign a new instance of class `Plant` to the same variable.
 - Check the Status.
+
+## P4_2AllTheSame
+
+This exercise teaches you that when you assign an object (class instance), then the Reference to the same object is copied, which means that both variables point to the same target. The variables won't hold instances that just look the same, but that are the same object.
+
+```
+Output:4
+Output:4
+Output:4
+Output:4
+```
+
+- Define a class named ScoreCounter
+  - It was a Field named `Score` for counting the Score
+  - It has a Method named `IncreaseScore` for increasing the Score
+- Instantiate the class and assign it to Variable `one`
+- Assign Variable `one` to Variable `two`
+- Assign Variable `three` to Variable `four`
+- Invoke `IncreaseScore` once on each Variable
+- Print each Variable's `Score` to the Console
+  - Notice that they all have the Same Score of `4` (not one!)
+ 
+## P4_3PassingReferences
+
+This exercise will teach you that when you pass an object to a function, the object still references the same object. It does not get cloned. This means that changes made within the function will affect the variable outside the function as well.
+
+
+```
+Output:This house is owned by Marc.
+Output:This house is owned by Alex.
+```
+
+- Define a class named `House`
+  - It has a Field named `Owner` which stores the name of the Owner
+  - It has a Method named `PrintOwner` which prints `"This house is owned by XX."`
+- In your `Program.cs`:
+  - Add a Function named `Sell`
+    - It takes an Argument of Type `House`
+    - It changes the `Owner` of that `House` to `"Alex"`
+  - Instantiate your `House` and assign it to a variable
+  - Invoke `PrintOwner` on the Variable
+  - Invoke `Sell` and pass the Variable as an Argument
+  - Invoke `PrintOwner` on the Variable
