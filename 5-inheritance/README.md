@@ -12,7 +12,7 @@ Your Game has the following classes:
 
 Design the classes by thinking about:
 - Can they be held in your hands?
-- Can they be used in combat?
+- Is it an object intended to be used in Combat?
 - Do they live?
 - Do they have Vitamins?
 - Can they be eaten?
