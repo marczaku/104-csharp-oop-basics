@@ -23,8 +23,8 @@ Hint: You need to add some additional classes. e.g.:
 
 Hint: Go a bit overboard! Every time you find two or more classes that have many traits in common, give them a common parent class, e.g.:
 - If the given classes were `Tulip`, `Dandelion`, `Oak`, `Fir`
-- You could add `Flower` as a parent for `Tulip`
-- and `Dandelion` and `Tree` for `Oak` and `Fir`
+- You could add `Flower` as a parent for `Tulip` and `Dandelion`
+- You could add `Tree` for `Oak` and `Fir`
 - and `Plant` for `Tree` and `Flower`
 
 ## P5_1Father
