@@ -42,7 +42,7 @@ These are the rules of battle:
 ## P6_1WellHelloThere
 - Create a class named `Lightsaber`.
 - Create a class named `ObiWan` with one Field named `Weapon` (of Type `Lightsaber`).
-- Create an instance of the class and assign it to a variable.
+- Create an instance of the class `ObiWan` and assign it to a variable.
 - Print the variable itself to the Console.
 - Print the variable's field `Lightsaber` to the Console.
 - Assign a new instance of type `Lightsaber` to the variable's field `Weapon`.
