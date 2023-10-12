@@ -48,4 +48,35 @@ These are the rules of battle:
 - Assign a new instance of type `Lightsaber` to the variable's field `Weapon`.
 - Print the variable's field `Lightsaber` to the Console.
 
+## P6_2
+```
+Give me a name.
+> Marc
+Give me a name.
+> Alex
+Give me a name.
+> Felix
+Marc: Eating Pizza (6 Slices Left).
+Alex: Eating Pizza (5 Slices Left).
+Felix: Eating Pizza (4 Slices Left).
+Marc: Eating Pizza (3 Slices Left).
+Alex: Eating Pizza (2 Slices Left).
+Felix: Eating Pizza (1 Slices Left).
+Marc: Eating Pizza (0 Slices Left).
+Alex: Pizza is Empty already :(
+Felix: Pizza is Empty already :(
 
+```
+
+- Create a class named `Pizza`
+  - It has a Field named `Slices` of Type `int`
+- Create a class named `Person`
+  - It has a Field named `Meal` of Type `Pizza`
+  - It has a Method named `Eat` that:
+   - If `Meal` still has a Slice: It prints `Name: Eating Pizza (x Slices Left).` and reduces `Slices` by 1.
+   - Otherwise: It prints `Name: Pizza is Empty already :(` 
+
+In your `Program.cs`:
+- Instantiate 3 People with different names (ask the User)
+- Instantiate a Pizza with `7` Slices and Assign it to all People
+- Let each Person eat Pizza 3 times.
