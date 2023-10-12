@@ -14,7 +14,7 @@ Design the classes by thinking about:
 - Can they be held in your hands?
 - Is it an object intended to be used in Combat?
 - Do they live?
-- Do they have Vitamins?
+- Are they known to have many Vitamins?
 - Can they be eaten?
 
 Hint: You need to add some additional classes. e.g.:
