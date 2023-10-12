@@ -27,6 +27,10 @@ Hint: Go a bit overboard! Every time you find two or more classes that have many
 - You could add `Tree` for `Oak` and `Fir`
 - and `Plant` for `Tree` and `Flower`
 
+Bonus 1: Draw the Hierarchy as an Image using a Drawing Application or [Miro](https://miro.com)
+
+Bonus 2: Use Mermaid to create a Mermaid Diagram for the Class Hierarchy and put it in your Repository's `README.md`
+
 ## P5_1Father
 - Create a class named `DarthVader`
 - Create a class named `Luke`
