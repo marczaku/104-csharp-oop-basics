@@ -3,7 +3,9 @@
 Composition describes when a Class contains other classes as members.
 
 ## Class Composition
+
 Look at this example where a car is composited of multiple parts:
+
 ```csharp
 public class Wheel {}
 public class Engine {}
@@ -16,6 +18,7 @@ public class Car {
 ```
 
 ## References
+
 Notice though, that all these Members are only referenced. Which means that classes can share the same instances as their members.
 
 Each Bee has a Queen:

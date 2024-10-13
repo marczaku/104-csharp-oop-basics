@@ -31,6 +31,7 @@ mage.Health = 100;
 ```
 
 ### And they also have Mana
+
 ```csharp
 Mage mage = new Mage();
 mage.Mana = 12;
@@ -115,7 +116,7 @@ Limitations of such systems:
 Supported by C++, but inherits (pun intended) other problems (more on those later)
 
 ## Solution 2: Composition over Inheritance
-Instead of inheriting Behaviour, we can Compose behaviours through Components. This is what we'll be doing in Unity!
+Instead of inheriting behaviour, we can compose behaviours through Components. This is what we'll be doing in Unity!
 
 Instead of:
 - A Dolphin inherits from Fish
@@ -134,8 +135,9 @@ We do:
 - A Horse has these components:
   - Animal (has certain NPC behaviours)
   - Mammal (can carry babies)
-  - Vehicle (can be used for transportation)
+  - Vehicle (can be used by player for faster transportation)
   - Horse (attracts a cult of fans)
 
 ## Why Teach us Inheritance, Then?
-Because in order to write even a single Component in Unity, we need to inherit from a Base Class, that has all basic logic for Components.
+
+Because in order to write even a single Component in Unity, we need to inherit from a Base Class, that has all basic logic for Components (`MonoBehaviour`).

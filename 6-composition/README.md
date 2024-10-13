@@ -25,13 +25,16 @@ These are the rules of battle:
     - Else, he is wounded
 
 - Create a project named `P6GoodKnight`
-- Create an `Shield` class
+- Create a `Shield` class
 - Create a `Sword` class
 - Create a `Knight` class.
-  - With an `Shield` Field.
+  - With a `Shield` Field.
   - With a `Sword` Field.
-  - With a `GetHit` Method with a `Sword` Parameter.
-  - With an `Attack` Method with a `Knight` Parameter.
+  - With a `GetHit` Method with a `Sword` Parameter named `weapon`.
+    - The purpose of this method is to define the behaviour of the `Shield` if it exists.
+    - It then prints the correct message depending on whether we are attacked with a sword or not and whether we have a shield or not.
+  - With an `Attack` Method with a `Knight` Parameter named `target`.
+    - The purpose of this method is only to call the `GetHit` Method of the `Knight` Parameter.
 - Create two `Knight`, `attcker` and `defender`.
 - Give `defender` an `Shield`
 - Let `attacker` `Attack` `defender`

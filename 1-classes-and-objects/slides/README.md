@@ -30,20 +30,20 @@ e.g. as Variable Types:
 Player player;
 ```
 
-or as Parameter Types:
+or as Method Parameter Types:
 ```csharp
 void Follow(Camera camera) {
 }
 ```
 
-or as Return Types:
+or as Method Return Types:
 ```csharp
 Item BuyItem() {
 }
 ```
 
 ## Objects
-When you use a class as a variable's Data Type, then the variable can be used to store Objects, which are class instances. 
+When you use a class as a variable's Data Type, the variable can be used to store Objects, which are class instances. 
 
 ### Null
 They are `null` per default, which means, they don't exist. More on this topic later in `#4 The Heap`
@@ -57,6 +57,10 @@ They can be instantiated using the `new` Keyword:
 Item BuyItem() {
     return new Item();
 }
+```
+
+```csharp
+Item myFirstItem = new Item();
 ```
 
 We will learn the details of this in future chapters.

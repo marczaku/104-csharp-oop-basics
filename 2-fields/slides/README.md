@@ -19,6 +19,7 @@ In above example, every `Player` will have:
 To assign a value to a `class` Field you need:
 - an object (class instance) reference
 - to access the Member using the `.` (member-of) operator
+
 ```csharp
 Player first = new Player();
 first.Health = 50;
@@ -55,26 +56,32 @@ public class Player {
 ```
 
 It's valid to access these members without explicitly initializing them:
+
 ```csharp
 Player first = new PLayer();
 Console.WriteLine(first.Health);
 ```
 
 But that's not possible with regular variables:
+
 ```csharp
 int health;
 Console.WriteLine(health); // ERROR
 ```
 
 ## Null Reference Exception
+
 You can't access the members of "nothing":
+
 ```csharp
 Player first = null;
 Console.WriteLine(first.Health); // NullReferenceException
 ```
 
 ## Null Check
+
 You can check, whether a value is null before accessing a Member:
+
 ```csharp
 if(first != null) {
     Console.WriteLine(first.Health);
@@ -86,5 +93,5 @@ BUT ONLY DO THIS IF YOU THINK THAT IT CAN BE `null` UNDER NORMAL CONDITIONS
 - or if an NPC might have a target to walk to and sometimes not
 
 DO NOT USE IT EVERYWHERE TO HIDE ERRORS
-- i.e. do not always put `if(x != null)` every time you find a `NullReferenceException`. The Issue might not be that someone is trying to access the Member, but the issue might be that the Member is missing.
-- Imagine for example, every Client (Player) is supposed to have a Character that he can move. If you just ignore if there is no movable Character, you might be hiding an underlying issue where players can't play without any error reporting.
+- i.e. do not always put `if(x != null)` every time you find a `NullReferenceException`. There might be another underlying issue that you could be hiding.
+- Imagine for example, every Client (Player) is supposed to have a Character that he can move. If you just ignore if there is no movable Character (`if(playerGameObject != null){HandleInput(playerGameObject);}`), you might be hiding an underlying issue where players can't play without any error reporting.
