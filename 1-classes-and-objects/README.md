@@ -4,9 +4,9 @@
 
 ### Goal
 ```csharp
-Output:Program+Person
-Output:Program+Person
-Output:Program+Person
+Output:Person
+Output:Person
+Output:Person
 ```
 
 ### Instructions
@@ -19,9 +19,9 @@ Output:Program+Person
 
 ### Goal
 ```
-Output:Program+Person
-Output:Program+Animal
-Output:Program+Car
+Output:Person
+Output:Animal
+Output:Car
 ```
 ### Instructions
 - Create a Console Project named `P1_1Classes`
